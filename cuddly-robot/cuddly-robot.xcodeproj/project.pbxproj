@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A76BCE2E21D117AF004CD7E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76BCE2D21D117AF004CD7E6 /* AppDelegate.swift */; };
+		A76BCE3021D117AF004CD7E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76BCE2F21D117AF004CD7E6 /* ViewController.swift */; };
+		A76BCE3521D117B0004CD7E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A76BCE3421D117B0004CD7E6 /* Assets.xcassets */; };
+		A76BCE3821D117B0004CD7E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A76BCE3621D117B0004CD7E6 /* LaunchScreen.storyboard */; };
+		A76BCE4321D117B1004CD7E6 /* cuddly_robotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76BCE4221D117B1004CD7E6 /* cuddly_robotTests.swift */; };
+		A76BCE5B21D11C30004CD7E6 /* Cuddles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BCE5221D11C30004CD7E6 /* Cuddles.framework */; };
+		A76BCE6221D11C30004CD7E6 /* CuddlesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76BCE6121D11C30004CD7E6 /* CuddlesTests.swift */; };
+		A76BCE6421D11C30004CD7E6 /* Cuddles.h in Headers */ = {isa = PBXBuildFile; fileRef = A76BCE5421D11C30004CD7E6 /* Cuddles.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A76BCE6721D11C30004CD7E6 /* Cuddles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A76BCE5221D11C30004CD7E6 /* Cuddles.framework */; };
+		A76BCE6821D11C30004CD7E6 /* Cuddles.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A76BCE5221D11C30004CD7E6 /* Cuddles.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A76BCE7121D11EB0004CD7E6 /* Cuddles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A76BCE7021D11EB0004CD7E6 /* Cuddles.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A76BCE3F21D117B1004CD7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76BCE2221D117AF004CD7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76BCE2921D117AF004CD7E6;
+			remoteInfo = "cuddly-robot";
+		};
+		A76BCE5C21D11C30004CD7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76BCE2221D117AF004CD7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76BCE5121D11C30004CD7E6;
+			remoteInfo = Cuddles;
+		};
+		A76BCE5E21D11C30004CD7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76BCE2221D117AF004CD7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76BCE2921D117AF004CD7E6;
+			remoteInfo = "cuddly-robot";
+		};
+		A76BCE6521D11C30004CD7E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A76BCE2221D117AF004CD7E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A76BCE5121D11C30004CD7E6;
+			remoteInfo = Cuddles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A76BCE6C21D11C30004CD7E6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A76BCE6821D11C30004CD7E6 /* Cuddles.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A76BCE2A21D117AF004CD7E6 /* cuddly-robot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cuddly-robot.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76BCE2D21D117AF004CD7E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A76BCE2F21D117AF004CD7E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A76BCE3421D117B0004CD7E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A76BCE3721D117B0004CD7E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A76BCE3921D117B0004CD7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76BCE3E21D117B1004CD7E6 /* cuddly-robotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cuddly-robotTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76BCE4221D117B1004CD7E6 /* cuddly_robotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cuddly_robotTests.swift; sourceTree = "<group>"; };
+		A76BCE4421D117B1004CD7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76BCE5221D11C30004CD7E6 /* Cuddles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cuddles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76BCE5421D11C30004CD7E6 /* Cuddles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cuddles.h; sourceTree = "<group>"; };
+		A76BCE5521D11C30004CD7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76BCE5A21D11C30004CD7E6 /* CuddlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuddlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A76BCE6121D11C30004CD7E6 /* CuddlesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuddlesTests.swift; sourceTree = "<group>"; };
+		A76BCE6321D11C30004CD7E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A76BCE7021D11EB0004CD7E6 /* Cuddles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cuddles.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A76BCE2721D117AF004CD7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE6721D11C30004CD7E6 /* Cuddles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE3B21D117B1004CD7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE4F21D11C30004CD7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE5721D11C30004CD7E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE5B21D11C30004CD7E6 /* Cuddles.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A76BCE2121D117AF004CD7E6 = {
+			isa = PBXGroup;
+			children = (
+				A76BCE2C21D117AF004CD7E6 /* cuddly-robot */,
+				A76BCE4121D117B1004CD7E6 /* cuddly-robotTests */,
+				A76BCE5321D11C30004CD7E6 /* Cuddles */,
+				A76BCE6021D11C30004CD7E6 /* CuddlesTests */,
+				A76BCE2B21D117AF004CD7E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A76BCE2B21D117AF004CD7E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A76BCE2A21D117AF004CD7E6 /* cuddly-robot.app */,
+				A76BCE3E21D117B1004CD7E6 /* cuddly-robotTests.xctest */,
+				A76BCE5221D11C30004CD7E6 /* Cuddles.framework */,
+				A76BCE5A21D11C30004CD7E6 /* CuddlesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A76BCE2C21D117AF004CD7E6 /* cuddly-robot */ = {
+			isa = PBXGroup;
+			children = (
+				A76BCE2D21D117AF004CD7E6 /* AppDelegate.swift */,
+				A76BCE2F21D117AF004CD7E6 /* ViewController.swift */,
+				A76BCE3421D117B0004CD7E6 /* Assets.xcassets */,
+				A76BCE3621D117B0004CD7E6 /* LaunchScreen.storyboard */,
+				A76BCE3921D117B0004CD7E6 /* Info.plist */,
+			);
+			path = "cuddly-robot";
+			sourceTree = "<group>";
+		};
+		A76BCE4121D117B1004CD7E6 /* cuddly-robotTests */ = {
+			isa = PBXGroup;
+			children = (
+				A76BCE4221D117B1004CD7E6 /* cuddly_robotTests.swift */,
+				A76BCE4421D117B1004CD7E6 /* Info.plist */,
+			);
+			path = "cuddly-robotTests";
+			sourceTree = "<group>";
+		};
+		A76BCE5321D11C30004CD7E6 /* Cuddles */ = {
+			isa = PBXGroup;
+			children = (
+				A76BCE5421D11C30004CD7E6 /* Cuddles.h */,
+				A76BCE7021D11EB0004CD7E6 /* Cuddles.swift */,
+				A76BCE5521D11C30004CD7E6 /* Info.plist */,
+			);
+			path = Cuddles;
+			sourceTree = "<group>";
+		};
+		A76BCE6021D11C30004CD7E6 /* CuddlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				A76BCE6121D11C30004CD7E6 /* CuddlesTests.swift */,
+				A76BCE6321D11C30004CD7E6 /* Info.plist */,
+			);
+			path = CuddlesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A76BCE4D21D11C30004CD7E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE6421D11C30004CD7E6 /* Cuddles.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A76BCE2921D117AF004CD7E6 /* cuddly-robot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76BCE4721D117B1004CD7E6 /* Build configuration list for PBXNativeTarget "cuddly-robot" */;
+			buildPhases = (
+				A76BCE2621D117AF004CD7E6 /* Sources */,
+				A76BCE2721D117AF004CD7E6 /* Frameworks */,
+				A76BCE2821D117AF004CD7E6 /* Resources */,
+				A76BCE6C21D11C30004CD7E6 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76BCE6621D11C30004CD7E6 /* PBXTargetDependency */,
+			);
+			name = "cuddly-robot";
+			productName = "cuddly-robot";
+			productReference = A76BCE2A21D117AF004CD7E6 /* cuddly-robot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A76BCE3D21D117B1004CD7E6 /* cuddly-robotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76BCE4A21D117B1004CD7E6 /* Build configuration list for PBXNativeTarget "cuddly-robotTests" */;
+			buildPhases = (
+				A76BCE3A21D117B1004CD7E6 /* Sources */,
+				A76BCE3B21D117B1004CD7E6 /* Frameworks */,
+				A76BCE3C21D117B1004CD7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76BCE4021D117B1004CD7E6 /* PBXTargetDependency */,
+			);
+			name = "cuddly-robotTests";
+			productName = "cuddly-robotTests";
+			productReference = A76BCE3E21D117B1004CD7E6 /* cuddly-robotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A76BCE5121D11C30004CD7E6 /* Cuddles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76BCE6921D11C30004CD7E6 /* Build configuration list for PBXNativeTarget "Cuddles" */;
+			buildPhases = (
+				A76BCE4D21D11C30004CD7E6 /* Headers */,
+				A76BCE4E21D11C30004CD7E6 /* Sources */,
+				A76BCE4F21D11C30004CD7E6 /* Frameworks */,
+				A76BCE5021D11C30004CD7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cuddles;
+			productName = Cuddles;
+			productReference = A76BCE5221D11C30004CD7E6 /* Cuddles.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A76BCE5921D11C30004CD7E6 /* CuddlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A76BCE6D21D11C30004CD7E6 /* Build configuration list for PBXNativeTarget "CuddlesTests" */;
+			buildPhases = (
+				A76BCE5621D11C30004CD7E6 /* Sources */,
+				A76BCE5721D11C30004CD7E6 /* Frameworks */,
+				A76BCE5821D11C30004CD7E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A76BCE5D21D11C30004CD7E6 /* PBXTargetDependency */,
+				A76BCE5F21D11C30004CD7E6 /* PBXTargetDependency */,
+			);
+			name = CuddlesTests;
+			productName = CuddlesTests;
+			productReference = A76BCE5A21D11C30004CD7E6 /* CuddlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A76BCE2221D117AF004CD7E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = funjahmental;
+				TargetAttributes = {
+					A76BCE2921D117AF004CD7E6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A76BCE3D21D117B1004CD7E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A76BCE2921D117AF004CD7E6;
+					};
+					A76BCE5121D11C30004CD7E6 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+					A76BCE5921D11C30004CD7E6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A76BCE2921D117AF004CD7E6;
+					};
+				};
+			};
+			buildConfigurationList = A76BCE2521D117AF004CD7E6 /* Build configuration list for PBXProject "cuddly-robot" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A76BCE2121D117AF004CD7E6;
+			productRefGroup = A76BCE2B21D117AF004CD7E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A76BCE2921D117AF004CD7E6 /* cuddly-robot */,
+				A76BCE3D21D117B1004CD7E6 /* cuddly-robotTests */,
+				A76BCE5121D11C30004CD7E6 /* Cuddles */,
+				A76BCE5921D11C30004CD7E6 /* CuddlesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A76BCE2821D117AF004CD7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE3821D117B0004CD7E6 /* LaunchScreen.storyboard in Resources */,
+				A76BCE3521D117B0004CD7E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE3C21D117B1004CD7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE5021D11C30004CD7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE5821D11C30004CD7E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A76BCE2621D117AF004CD7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE3021D117AF004CD7E6 /* ViewController.swift in Sources */,
+				A76BCE2E21D117AF004CD7E6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE3A21D117B1004CD7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE4321D117B1004CD7E6 /* cuddly_robotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE4E21D11C30004CD7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE7121D11EB0004CD7E6 /* Cuddles.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76BCE5621D11C30004CD7E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76BCE6221D11C30004CD7E6 /* CuddlesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A76BCE4021D117B1004CD7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76BCE2921D117AF004CD7E6 /* cuddly-robot */;
+			targetProxy = A76BCE3F21D117B1004CD7E6 /* PBXContainerItemProxy */;
+		};
+		A76BCE5D21D11C30004CD7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76BCE5121D11C30004CD7E6 /* Cuddles */;
+			targetProxy = A76BCE5C21D11C30004CD7E6 /* PBXContainerItemProxy */;
+		};
+		A76BCE5F21D11C30004CD7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76BCE2921D117AF004CD7E6 /* cuddly-robot */;
+			targetProxy = A76BCE5E21D11C30004CD7E6 /* PBXContainerItemProxy */;
+		};
+		A76BCE6621D11C30004CD7E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A76BCE5121D11C30004CD7E6 /* Cuddles */;
+			targetProxy = A76BCE6521D11C30004CD7E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A76BCE3621D117B0004CD7E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A76BCE3721D117B0004CD7E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A76BCE4521D117B1004CD7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A76BCE4621D117B1004CD7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A76BCE4821D117B1004CD7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cuddly-robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "younke.cuddly-robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A76BCE4921D117B1004CD7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cuddly-robot/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "younke.cuddly-robot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A76BCE4B21D117B1004CD7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cuddly-robotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "funjahmental.cuddly-robotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuddly-robot.app/cuddly-robot";
+			};
+			name = Debug;
+		};
+		A76BCE4C21D117B1004CD7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "cuddly-robotTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "funjahmental.cuddly-robotTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuddly-robot.app/cuddly-robot";
+			};
+			name = Release;
+		};
+		A76BCE6A21D11C30004CD7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Cuddles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = younke.Cuddles;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A76BCE6B21D11C30004CD7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Cuddles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = younke.Cuddles;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A76BCE6E21D11C30004CD7E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKBXSX397H;
+				INFOPLIST_FILE = CuddlesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = younke.CuddlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuddly-robot.app/cuddly-robot";
+			};
+			name = Debug;
+		};
+		A76BCE6F21D11C30004CD7E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DKBXSX397H;
+				INFOPLIST_FILE = CuddlesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = younke.CuddlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cuddly-robot.app/cuddly-robot";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A76BCE2521D117AF004CD7E6 /* Build configuration list for PBXProject "cuddly-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BCE4521D117B1004CD7E6 /* Debug */,
+				A76BCE4621D117B1004CD7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76BCE4721D117B1004CD7E6 /* Build configuration list for PBXNativeTarget "cuddly-robot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BCE4821D117B1004CD7E6 /* Debug */,
+				A76BCE4921D117B1004CD7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76BCE4A21D117B1004CD7E6 /* Build configuration list for PBXNativeTarget "cuddly-robotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BCE4B21D117B1004CD7E6 /* Debug */,
+				A76BCE4C21D117B1004CD7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76BCE6921D11C30004CD7E6 /* Build configuration list for PBXNativeTarget "Cuddles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BCE6A21D11C30004CD7E6 /* Debug */,
+				A76BCE6B21D11C30004CD7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A76BCE6D21D11C30004CD7E6 /* Build configuration list for PBXNativeTarget "CuddlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A76BCE6E21D11C30004CD7E6 /* Debug */,
+				A76BCE6F21D11C30004CD7E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A76BCE2221D117AF004CD7E6 /* Project object */;
+}
